@@ -1,0 +1,6 @@
+node_modules/
+.next/
+data.db*
+e2e-test.db*
+test-results/
+.env.local

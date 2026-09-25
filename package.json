@@ -1,0 +1,40 @@
+{
+    "name":  "sba-doc-checklist",
+    "version":  "0.1.0",
+    "private":  true,
+    "scripts":  {
+                    "dev":  "next dev",
+                    "build":  "next build",
+                    "start":  "next start",
+                    "lint":  "eslint",
+                    "test":  "vitest run",
+                    "test:watch":  "vitest",
+                    "test:e2e":  "playwright test"
+                },
+    "dependencies":  {
+                         "better-sqlite3":  "^13.0.3",
+                         "next":  "16.3.6",
+                         "next-auth":  "^5.0.0-beta.32",
+                         "react":  "19.2.8",
+                         "react-dom":  "19.2.8",
+                         "resend":  "^6.29.0"
+                     },
+    "devDependencies":  {
+                            "@playwright/test":  "^1.63.0",
+                            "@tailwindcss/postcss":  "^4",
+                            "@testing-library/jest-dom":  "^7.0.1",
+                            "@testing-library/react":  "^16.3.3",
+                            "@types/better-sqlite3":  "^9.6.0",
+                            "@types/node":  "^20",
+                            "@types/react":  "^19",
+                            "@types/react-dom":  "^19",
+                            "@vitejs/plugin-react":  "^6.1.1",
+                            "eslint":  "^9",
+                            "eslint-config-next":  "16.3.6",
+                            "jsdom":  "^29.1.1",
+                            "tailwindcss":  "^4",
+                            "typescript":  "^5",
+                            "vite-tsconfig-paths":  "^6.1.1",
+                            "vitest":  "^3.2.7"
+                        }
+}
