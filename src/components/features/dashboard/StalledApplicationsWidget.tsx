@@ -1,0 +1,1 @@
+// TODO: renders summary.stalledApplications
